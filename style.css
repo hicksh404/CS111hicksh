@@ -1,0 +1,38 @@
+html {
+  /*
+  style.css
+  demonstrates basic CSS rules
+Hope Hicks, October 13.
+  Description of changes- Times New Roman font, H1 and H2 color change, paragraph color and size change, list color and font change, and background color change.
+  */
+
+  h1 {
+  font-family: "Times New Roman", 
+  Arial, sans-serif;
+   color: #274580;
+    text-align: center; /*aligned heading 1's to center*/
+  }
+
+  h2 {
+   font-family: "Times New Roman", Arial, sans-serif;
+   color: #487b43;
+      }
+
+  p {
+   color:#2d352b;
+   font-size:13pt;
+  }
+
+  ul {
+  list-style: upper-roman;
+  color: #2d352b;
+    font-size: 13pt;
+    list-style-type: circle; /* Changed the bullet style to unfilled circles */
+    }
+
+  body {
+   background-color: #fef3a9;
+    font-size: 13pt;
+  } 
+  
+}
